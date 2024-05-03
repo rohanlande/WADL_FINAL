@@ -1,0 +1,121 @@
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .navbar {
+            /* display: flex; */
+            /* justify-content: space-between; */
+            background-color: blue;
+            /* background-color: #38ba24; */
+            overflow: hidden;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 999;
+        }
+
+        .navbar a {
+            margin: 0 10px;
+            float: right;
+            display: block;
+            color: #fff;
+            text-align: center;
+            /* padding: 14px 20px; */
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+
+        .page-header {
+            color: #fff;
+            padding: 15px 0;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .header-content {
+            background-color: white;
+            text-align: center;
+        }
+
+        .header-content p {
+            color: red;
+            font-size: 17px;
+            font-weight: bold;
+        }
+
+        .header-navbar ul {
+            display: flex;
+            background-color: blue;
+        }
+
+        .header-navbar a {
+            color: white;
+        }
+
+        .home-content img {
+            width: 100px;
+            background-size: cover;
+            padding: 30px;
+        }
+
+        .home-footer {
+            color: gray;
+            background-color: blue;
+        }
+
+        .footer1 {
+            display: flex;
+            justify-content: space-between;
+            padding-left: 100px;
+            background-color: rgb(34, 34, 252);
+            padding-right: 100px;
+        }
+
+        .footer2 {
+            display: flex;
+            justify-content: space-between;
+            padding: 155px;
+            background-color: rgb(34, 34, 252);
+        }
+
+        .header-navbar {
+            display: flex;
+            justify-content: space-evenly;
+            /* width: 100%; */
+            background-color: blue;
+        }
+
+        .header-navbar a {
+            background-color: blue;
+            color: #fff;
+            border: 1px solid #fff;
+            padding: 5px 54.7px;
+            text-decoration: none;
+        }
+
+        .page-header h1 {
+            font-size: 30px;
+            font-weight: 600;
+            color: black;
+        }
+
+        .page-content {
+            margin: 0 18%;
+            background-color: #f2eeee;
+            padding: 10px 50px;
+            height: 250px;
+            overflow-y: auto;
+            scrollbar-width: none;
+        }
+
+        .page-footer,
+        .footer3 {
+            background-color: blue;
+            color: #fff;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            text-align: center;
+            padding: 30px;
+        }

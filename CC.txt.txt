@@ -1,0 +1,14 @@
+vagrant1: https://drive.google.com/drive/u/0/folders/1me_nJJh0fvdDOXX3ew2jzGQpoP7f_iFt
+
+vagrant 2: https://app.vagrantup.com/bento/boxes/ubuntu-18.04
+
+ls - list all the files and directories
+cat - show the content inside a file
+scp - it will help us to copy files from one vm to other
+cd - change directory
+mkdir - make a new directory
+touch - it makes a new file 
+nano - nano is a editor inside linux os
+
+$ scp tranfer.txt vagrant@172.168.2.5:/home/vagrant
+

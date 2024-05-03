@@ -1,0 +1,70 @@
+.App {
+  text-align: center;
+  margin-top: 50px;
+  /* display: flex; */
+  /* align-items: center; */
+  
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+.table-container {
+  margin: 50px;
+}
+
+.student-table {
+  width: 100%;
+  border-collapse: collapse;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.student-table thead th {
+  background-color: #007bff;
+  color: white;
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #100d0d;
+}
+
+.student-table tbody td {
+  padding: 10px;
+  border: 1px solid #1a1818;
+}
+
+.student-table tbody tr:hover {
+  background-color: #f5f5f5;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 20px;
+}
+th, td {
+  border: 1px solid #dddddd;
+  padding: 8px;
+  text-align: center;
+}
+th {
+  background-color: #2b1616;
+}
+/* tr:nth-child(even) {
+  background-color: #2b1616;
+} */
+tr:hover {
+  background-color: #291b1b;
+}

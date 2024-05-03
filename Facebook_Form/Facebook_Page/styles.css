@@ -1,0 +1,120 @@
+* {
+    margin: 0; /* Initially all margins are initialized with 0 */
+    font-family: Arial;
+    box-sizing: border-box; /* Corrected property */
+}
+.nav {
+    height: 80px;
+    background: darkblue;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-evenly; */
+    color: white;
+}
+.heading {
+    color: white;
+    margin-left: 60px;
+}
+.username{
+    /* margin-top: 15px; */
+    display: flex;
+    flex-direction: column;
+}
+.username {
+    margin-left: 435px;
+}
+.nav-passwordinput {
+    margin-left: 20px;
+}
+.nav-loginbutton {
+    /* margin-top: 15px;; */
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.nav-usernameinput{
+    margin-top: 3px;
+}
+.container {
+    /* justify-content: space-evenly; */
+    display: flex;
+    background-color: #d3d3d3;
+}
+.leftside .image{
+    width: 420px;
+    height: auto;
+    /* margin-right: ; */
+}
+.leftside {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    color: darkblue;
+    flex: 1; /* To make left side flexible */
+}
+.rightside {
+    margin-top: 40px;
+    color: darkblue;
+    flex: 1; /* To make right side flexible */
+}
+/* form {
+    display: flex;
+    flex-wrap: wrap;
+} */
+.nameinput{
+    margin-top: 25px;
+    display: flex;
+    margin-right: 5px;
+}
+.nameinput input[type="text"],
+.columninput input[type="text" ] {
+    border-radius: 5px;
+    height: 30px;
+    /* Other styles for input elements within these containers */
+}
+.columninput input[type="date" ] {
+    border-radius: 5px;
+    height: 30px;
+    width: 170px;
+    /* Other styles for input elements within these containers */
+}
+.columninput{
+    width: 340px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.gender{
+    margin-top: 20px;
+    color: darkblue;
+    margin-bottom: 20px;
+}
+.Signupbutton{
+    margin-top: 5px;
+    background-color: green;
+    border-color: black;
+    border-radius: 5px;
+    color: white;
+    height: 30px;
+    width: 60px;
+}
+.vertical-line{
+    border-top: 1px solid black; /* Change color and width as needed */
+    margin-top: 20px;
+    width: 500px; /* Adjust height of the line */
+    margin-bottom: 10px; 
+}
+.bottom{
+    margin-top: 20px;
+    display: flex;
+    color: grey;
+    flex-direction: column;
+    align-items: center;
+}
+.bottomline{
+    border-top: 1px solid black;
+    width: 1000px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}

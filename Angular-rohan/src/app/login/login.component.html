@@ -1,0 +1,11 @@
+<div class="body">
+  <div class="form_container">
+    <form class="form" (ngSubmit)="onSubmit()">
+      <h4>Email</h4>
+      <input name="email" [(ngModel)]="loginObj.email" type="text" required />
+      <h4>Password</h4>
+      <input name="password" [(ngModel)]="loginObj.password" type="text" required />
+      <button class="submit_btn">Submit</button>
+    </form>
+  </div>
+</div>

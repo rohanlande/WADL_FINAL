@@ -1,0 +1,33 @@
+<div class="body">
+  <div class="form_container">
+    <form class="form" (ngSubmit)="onSubmit()">
+      <h4>Name</h4>
+      <input name="name" [(ngModel)]="registerObj.name" type="text" required />
+      <h4>Email</h4>
+      <input name="email" [(ngModel)]="registerObj.email" type="text" required />
+      <h4>Password</h4>
+      <input name="password" [(ngModel)]="registerObj.password" type="text" required />
+      <h4>Roll number</h4>
+      <input name="roll_no" [(ngModel)]="registerObj.roll_no" type="text" required />
+      
+      <h4>Select your first choice</h4>
+      <input type="radio" name="choice1" [(ngModel)]="registerObj.choice1" required value="Mobile computing" /> Mobile Computing
+      <input type="radio" name="choice1" [(ngModel)]="registerObj.choice1" required value="Green Technology" /> Green Technology
+      <input type="radio" name="choice1" [(ngModel)]="registerObj.choice1" required value="Quantam Computing" /> Quantam Computing
+
+
+      <h4>Select your second choice</h4>
+      <input type="radio" name="choice2" [(ngModel)]="registerObj.choice2" required value="Mobile computing" /> Mobile Computing
+      <input type="radio" name="choice2" [(ngModel)]="registerObj.choice2" required value="Green Technology" /> Green Technology
+      <input type="radio" name="choice2" [(ngModel)]="registerObj.choice2" required value="Quantam Computing" /> Quantam Computing
+
+
+      <h4>Select your third choice</h4>
+      <input type="radio" name="choice3" [(ngModel)]="registerObj.choice3" required value="Mobile computing" /> Mobile Computing
+      <input type="radio" name="choice3" [(ngModel)]="registerObj.choice3" required value="Green Technology" /> Green Technology
+      <input type="radio" name="choice3" [(ngModel)]="registerObj.choice3" required value="Quantam Computing" /> Quantam Computing
+
+      <button class="submit_btn">Submit</button>
+    </form>
+  </div>
+</div>
